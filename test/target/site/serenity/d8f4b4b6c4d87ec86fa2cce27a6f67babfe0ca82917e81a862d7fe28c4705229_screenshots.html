@@ -1,0 +1,254 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script><!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle"></span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="d9a3c0f6c69fd4ec65fdec8ddd0bf36bb904c19b07ae99aa828386f913083f49.html">Prueba Automatizacion</a></span>
+                > <span class="truncate-60"><a
+                    href="d8f4b4b6c4d87ec86fa2cce27a6f67babfe0ca82917e81a862d7fe28c4705229.html">Registro exitoso. </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 10-11-2021 22:49</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Prueba Automatizacion </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="ec3644e9342d32fe427f28bfa83a3084b3999493dbafdd95c2d0cbb278b71b7f.html">Tag
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="d749e3c14daa85889ebd89e18edd3cb516694c224ec1be46f9eceaae46c89085.html">R1
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Registro exitoso.
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Given realizar un registro<br>When el cliente ingrese al formulario de registro con nombre &lt;fName&gt; apellido &lt;lName&gt; celular &lt;phone&gt; correo &lt;email&gt; direccion &lt;address&gt; ciudad &lt;city&gt; estado &lt;state&gt; cod_postal &lt;postal&gt; pais &lt;country&gt; usuario&lt;usuario&gt; contrasena &lt;password&gt; y con_contrasena &lt;conPassword&gt;</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="3767b4311e59783723a7eccf0654c8ded7879737cbfa1a175374dabf25da88e9.png" title=" Example: {fName=&quot;Cristian&quot;, lName=&quot;Buitrago&quot;, phone=&quot;3124130120&quot;, email=&quot;cristian@gmail.com&quot;, address=&quot;calle 1&quot;, city=&quot;bogota&quot;, state=&quot;bogota&quot;, postal=&quot;011501&quot;, country=&quot;COLOMBIA&quot;, usuario=&quot;cristiancbc&quot;, password=&quot;123456&quot;, conPassword=&quot;123456&quot;}" width="1920"/>
+                <img src="3767b4311e59783723a7eccf0654c8ded7879737cbfa1a175374dabf25da88e9.png" title=" Given realizar un registro" width="1920"/>
+                <img src="3767b4311e59783723a7eccf0654c8ded7879737cbfa1a175374dabf25da88e9.png" title=" Ingreso a navegador" width="1920"/>
+                <img src="3767b4311e59783723a7eccf0654c8ded7879737cbfa1a175374dabf25da88e9.png" title=" Given realizar un registro (completed)" width="1920"/>
+                <img src="3767b4311e59783723a7eccf0654c8ded7879737cbfa1a175374dabf25da88e9.png" title=" When el cliente ingrese al formulario de registro con nombre &quot;Cristian&quot; apellido &quot;Buitrago&quot; celular &quot;3124130120&quot; correo &quot;cristian@gmail.com&quot; direccion &quot;calle 1&quot; ciudad &quot;bogota&quot; estado &quot;bogota&quot; cod_postal &quot;011501&quot; pais &quot;COLOMBIA&quot; usuario&quot;cristiancbc&quot; contrasena &quot;123456&quot; y con_contrasena &quot;123456&quot;" width="1920"/>
+                <img src="3767b4311e59783723a7eccf0654c8ded7879737cbfa1a175374dabf25da88e9.png" title=" Btn register" width="1920"/>
+                <img src="29f1d4a2937db47ac12426cc1ff8aef4b50d50f70a09e198307f0e9299440888.png" title=" Btn register (completed)" width="1920"/>
+                <img src="29f1d4a2937db47ac12426cc1ff8aef4b50d50f70a09e198307f0e9299440888.png" title=" Txt f name: Cristian" width="1920"/>
+                <img src="47c1ec6c46fba3d2a675031afc88b40032fb942ed3ad7d6c15fa79f197515f40.png" title=" Txt f name: Cristian (completed)" width="1920"/>
+                <img src="47c1ec6c46fba3d2a675031afc88b40032fb942ed3ad7d6c15fa79f197515f40.png" title=" Txt l name: Buitrago" width="1920"/>
+                <img src="f7cd71fb5da1e0c29847ef01359a1c4bbb05f2840dddaddc20ee27b131fae424.png" title=" Txt l name: Buitrago (completed)" width="1920"/>
+                <img src="f7cd71fb5da1e0c29847ef01359a1c4bbb05f2840dddaddc20ee27b131fae424.png" title=" Txt phone: 3124130120" width="1920"/>
+                <img src="dd0c655d21d0eb852090301bcee593934eb6bc506cc55b74188fd05731cb0944.png" title=" Txt phone: 3124130120 (completed)" width="1920"/>
+                <img src="dd0c655d21d0eb852090301bcee593934eb6bc506cc55b74188fd05731cb0944.png" title=" Txt email: cristian@gmail.com" width="1920"/>
+                <img src="36c91b922770b1531f03953ba11d7122e77199c9572f7ff945fcbd0fdea5628e.png" title=" Txt email: cristian@gmail.com (completed)" width="1920"/>
+                <img src="36c91b922770b1531f03953ba11d7122e77199c9572f7ff945fcbd0fdea5628e.png" title=" Txt address: calle 1" width="1920"/>
+                <img src="345b3474ba87fc2b83f6e0ab335205674aa5a950ce9377467202ada016841ee7.png" title=" Txt address: calle 1 (completed)" width="1920"/>
+                <img src="345b3474ba87fc2b83f6e0ab335205674aa5a950ce9377467202ada016841ee7.png" title=" Txt city: bogota" width="1920"/>
+                <img src="0e2a1e79b34b9f0cbaf309e9ec459257697e96f84346a94d8a0f15e3f6e9ea2e.png" title=" Txt city: bogota (completed)" width="1920"/>
+                <img src="0e2a1e79b34b9f0cbaf309e9ec459257697e96f84346a94d8a0f15e3f6e9ea2e.png" title=" Txt state: bogota" width="1920"/>
+                <img src="7de1224152b4ac1c45a40815d3bd3f70d51585198b439529bb82884e31c14073.png" title=" Txt state: bogota (completed)" width="1920"/>
+                <img src="7de1224152b4ac1c45a40815d3bd3f70d51585198b439529bb82884e31c14073.png" title=" Txt postalc: 011501" width="1920"/>
+                <img src="6828a9ddb0df6df5c3fea4215838641bf96866d6c5b46d3fd1973a14e4284a12.png" title=" Txt postalc: 011501 (completed)" width="1920"/>
+                <img src="6828a9ddb0df6df5c3fea4215838641bf96866d6c5b46d3fd1973a14e4284a12.png" title=" Select country: COLOMBIA" width="1920"/>
+                <img src="ab4fd16955d161585c78ab6ff1680aeba7eba7abd217c42e90ba26844cd4a394.png" title=" Select country: COLOMBIA (completed)" width="1920"/>
+                <img src="ab4fd16955d161585c78ab6ff1680aeba7eba7abd217c42e90ba26844cd4a394.png" title=" Txt username: cristiancbc" width="1920"/>
+                <img src="d72708ac6844a0eb5efe145c26a1446566bf3217ae49ee20da2f081bacb0b36c.png" title=" Txt username: cristiancbc (completed)" width="1920"/>
+                <img src="d72708ac6844a0eb5efe145c26a1446566bf3217ae49ee20da2f081bacb0b36c.png" title=" Txt password: 123456" width="1920"/>
+                <img src="384f8c8f896e92b837a20010a07a3ffed9a16735884c9fa58cd30a1c77884696.png" title=" Txt password: 123456 (completed)" width="1920"/>
+                <img src="384f8c8f896e92b837a20010a07a3ffed9a16735884c9fa58cd30a1c77884696.png" title=" Txt conpassword: 123456" width="1920"/>
+                <img src="bc10db8fd866fdf2faf481415c5603cc4aa9179061aeac2a6457b44690985556.png" title=" Txt conpassword: 123456 (completed)" width="1920"/>
+                <img src="bc10db8fd866fdf2faf481415c5603cc4aa9179061aeac2a6457b44690985556.png" title=" Btn submit" width="1920"/>
+                <img src="b84081e904fa063fd8db3591ebe19446d6f42ac47372b1724f32a4f91086bd1a.png" title=" Btn submit (completed)" width="1920"/>
+                <img src="b84081e904fa063fd8db3591ebe19446d6f42ac47372b1724f32a4f91086bd1a.png" title=" Validacion registro" width="1920"/>
+                <img src="b84081e904fa063fd8db3591ebe19446d6f42ac47372b1724f32a4f91086bd1a.png" title=" Validacion registro (completed)" width="1920"/>
+                <img src="b84081e904fa063fd8db3591ebe19446d6f42ac47372b1724f32a4f91086bd1a.png" title=" When el cliente ingrese al formulario de registro con nombre &quot;Cristian&quot; apellido &quot;Buitrago&quot; celular &quot;3124130120&quot; correo &quot;cristian@gmail.com&quot; direccion &quot;calle 1&quot; ciudad &quot;bogota&quot; estado &quot;bogota&quot; cod_postal &quot;011501&quot; pais &quot;COLOMBIA&quot; usuario&quot;cristiancbc&quot; contrasena &quot;123456&quot; y con_contrasena &quot;123456&quot; (completed)" width="1920"/>
+                <img src="b84081e904fa063fd8db3591ebe19446d6f42ac47372b1724f32a4f91086bd1a.png" title=" Example: {fName=&quot;Cristian&quot;, lName=&quot;Buitrago&quot;, phone=&quot;3124130120&quot;, email=&quot;cristian@gmail.com&quot;, address=&quot;calle 1&quot;, city=&quot;bogota&quot;, state=&quot;bogota&quot;, postal=&quot;011501&quot;, country=&quot;COLOMBIA&quot;, usuario=&quot;cristiancbc&quot;, password=&quot;123456&quot;, conPassword=&quot;123456&quot;} (completed): <span class='success-color'>SUCCESS</span>" width="1920"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.70</span>
+</div>
+</body>
+</html>
